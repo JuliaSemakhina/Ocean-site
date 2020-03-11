@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Digital Ocean Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+</head>
+<body>
+	<header>	
+	<div class="logo">
+		<img src="img/devjane.png">
+	</div>
+	<button class="nav-toggle" arial-label="toggle navigation">
+		<span class="hamburger"></span>
+	</button>
+	<nav class="nav">
+		<ul class="nav__list">
+			<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+			<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+			<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+			<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+		</ul>
+	</nav>
+	</header>
+
+	<!--Introduction-->
+	<section class="intro" id="home">
+		<h1 class="section__title section__title--intro">Hi, my name is <strong>Jane Smith</strong>
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">front-ent dev</p>
+		<img src="img/dev-jane-02.jpg" class="intro__img">
+	</section>
+	
+	<!--My services-->
+	<section class="my-services" id="services">
+		<h2 class="section__title section__title--services"> What I do</h2>
+		<div class="services">
+			<div class="service">
+				<h3>Design & Development</h3>
+				<p>WordPress users may install and switch among different themes. Themes allow users to change the look and functionality of a WordPress website without altering the core code or site content. Every WordPress website requires at least one theme to be present and every theme should be designed using WordPress standards with structured PHP, valid HTML (HyperText Markup Language), and Cascading Style Sheets (CSS). </p>
+			</div>
+
+			<div class="service">
+				<h3>E-commerce</h3>
+				<p>Themes may be directly installed using the WordPress "Appearance" administration tool in the dashboard, or theme folders may be copied directly into the themes directory, for example via FTP.</p>
+			</div>
+
+			<div class="service">
+				<h3>WordPress</h3>
+				<p>The PHP, HTML and CSS found in themes can be directly modified to alter theme behavior, or a theme can be a "child" theme which inherits settings from another theme and selectively overrides features.</p>
+			</div>
+
+		</div>
+		<a href="#work" class="btn">My work</a>
+	</section>
+
+	<!--About me-->
+	<section class="about-me" id="about">
+		<h2 class="section__title section__title--about">Who I am</h2>
+		<p class="section__title section__subtitle--about">Begginer web-designer & developer</p>
+
+		<div class="about-me__body">
+			<p>WordPress' plugin architecture allows users to extend the features and functionality of a website or blog. As of January 2020, WordPress.org has 55,487 plugins available,[19] each of which offers custom functions and features enabling users to tailor their sites to their specific needs. </p>
+			<p>However, this does not include the premium plugins that are available (approximately 1,500+), which may not be listed in the WordPress.org repository. These customizations range from search engine optimization (SEO), to client portals used to display private information to logged in users, to content management systems, to content displaying features, such as the addition of widgets and navigation bars.</p>
+		</div>
+		<img src="img/img3.jpg" class="about_img">
+	</section>
+	<!--My work-->
+<section class="my-work" id="work">
+	<h2 class="section__title">My work</h2>
+	<p class="section__subtitle section__subtitle--work"> A selection of my range of work</p>
+		<div class="portfolio">
+			<!--Portfolio Item 01-->
+			<a href="portfolio-item.html" class="portfolio__item">
+				<img src="img/img4.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 02-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img5.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 03-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img6.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 04-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img7.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 05-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img8.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 06-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img9.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 07-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img10.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 08-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img11.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 09-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img12.jpg" class="portfolio-img">
+			</a>
+			<!--Portfolio Item 0 0-->
+			<a href="#" class="portfolio__item">
+				<img src="img/img13.jpg" class="portfolio-img">
+			</a>
+		</div>
+</section>
+
+<!--Footer-->
+<footer class="footer">
+	<a href="mailto:contremoi@yandex.ru" class="footer-link">contremoi@yandex.ru</a>
+	<ul class="social-list">
+		<li class="social-list__item"><a href="https://codepen.com" class="social-list__link">
+			<i class="fab fa-codepen"></i>
+		</a></li>
+
+		<li class="social-list__item"><a href="https://twitter.com" class="social-list__link">
+			<i class="fab fa-twitter"></i>
+		</a></li>
+
+		<li class="social-list__item"><a href="https://facebook.com" class="social-list__link">
+			<i class="fab fa-facebook"></i>
+		</a></li>
+		<li class="social-list__item"><a href="https://github.com" class="social-list__link">
+			<i class="fab fa-github"></i>
+		</a></li>
+	</ul>
+<!-- <div class="hero"> 
+	<h1>Some background</h1>
+
+	<video class="video-bg" autoplay muted loop>
+		<source src="videos/short.mp4" type="video/mp4">
+	</video>
+</div>-->
+
+</footer>
+<script type="text/javascript" src="java.js"></script>
+</body>
+<script src="https://kit.fontawesome.com/b54e3cf5d0.js" crossorigin="anonymous"></script>
+</html>
